@@ -1,12 +1,4 @@
-def repeat(a, b):
-    """
-    :param a:
-    :param b:
-    :return:
-    """
-    result = (a**2 + b ** 2) ** 0.5
-    return result
+def distance(x1, x2, y1, y2):
 
+    return ((x1 - x2)**2 + (y1 - y2)**2)**0.5
 
-if __name__ == "__main__":
-    print("Test1: " + str(repeat(2, 3)))
